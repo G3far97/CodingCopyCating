@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Welcome To My Website">
+    <title>Form Part 2 ( Button, File, Image, Hidden, Reset, Radio )</title>
+    <style>
+
+    </style>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function sayHello() {
+            alert("Hello HTML")
+        }
+    </script>
+</head>
+
+<body>
+    <form name="register">
+        <label>Username</label>
+        <input type="text" name="username" value="" placeholder="Type Your Name" maxlength="10">
+        <br>
+        <label>Password</label>
+        <input type="password">
+        <br>
+        <label>Upload Your CV</label>
+        <input type="file">
+        <br>
+        <input type="checkbox">
+        <label>Remember Me</label>
+        <br>
+        <label>Choose Your Browser</label>
+        <br>
+        <input type="radio" name="browser" value="Chrome"> Google Chrome <br>
+        <input type="radio" name="browser" value="FireFox"> Mozilla FireFox <br>
+        <input type="radio" name="browser" value="Opera"> Opera <br>
+        <br>
+        <label>Choose Your Mobile</label>
+        <br>
+        <input type="radio" name="mobile" value="iPhone"> iPhone <br>
+        <input type="radio" name="mobile" value="Samsung"> Samsung<br>
+        <input type="radio" name="mobile" value="Nokia"> Nokia <br>
+        <br>
+        <input type="hidden"value="testing">
+        <input type="button" name="Say Hello" value="Say Hello" onclick="sayHello()">
+        <input type="submit" value="Sign Up">
+        <input type="reset" value="Restore Default">
+        <br>
+        <br>
+        <input type="image" src="../Image/quickie-remove-background-source.jpg" alt="quickie-remove-background-source">
+    </form>
+</body>
+
+</html>

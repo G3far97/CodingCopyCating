@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Learn JavaScript => Where To Put JavaScript Code</title>
+        <!-- link rel="stylesheet": type="text/css" By Default -->
+        <!-- script: type="text/javascript" By Default -->
+        <script src="test_4.js"></script>
+        <script>
+            document.write("<p>Hello From Head Tag</p>");
+        </script>
+    </head>
+    <body>
+        <script>
+            document.write("<p>Hello From Top Body Tag</p>");
+        </script>
+        <div>Hello JavaScript From Page</div>
+        
+        <!-- The Recommended Place To Put Your Scripts is At The End of The 'body' Tag -->
+        <script>
+            document.write("<p>Hello From Bottom Body Tag</p>");
+        </script>
+        <script src="test2_4.js"></script>
+    </body>
+</html>

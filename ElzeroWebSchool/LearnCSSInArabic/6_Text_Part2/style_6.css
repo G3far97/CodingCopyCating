@@ -1,0 +1,61 @@
+div
+{
+    /* Div Properties */
+    width:300px;
+    background:#DDD;
+    margin:10px 0;
+    padding:10px;
+
+    /* Text Properties */
+    color:#F00;
+    direction:ltr; /* direction:ltr // by default */
+    letter-spacing:2px;
+    line-height:30px;
+    text-align:center;
+    
+    text-decoration:underline;
+    /* text-decoration:overline; */
+    text-indent:40px;
+    /* text-indent:20%; */
+    white-space:normal;
+    /* white-space:nowrap; */
+    word-spacing:50px;
+}
+
+a
+{
+    text-decoration:none;
+}
+
+a:hover
+{
+    text-decoration:underline;
+}
+
+span.old
+{
+    text-decoration:line-through;
+    color:#F00
+}
+
+span.new
+{
+   color:#00F
+}
+
+span.cap
+{
+    text-transform:capitalize;
+}
+
+span.upper
+{
+    text-transform:uppercase;
+}
+
+span.lower
+{
+    text-transform:lowercase;
+    word-spacing:50px;
+    letter-spacing:-2px;
+}

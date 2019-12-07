@@ -1,0 +1,34 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+
+div
+{
+    background-color:#00F;
+    color:#FFF;
+    /* margin-left:50px; */
+    width:400px;
+    margin:50px;
+    /* margin:50px 50px 50px 50px; */
+}
+
+.two
+{
+    background-color:#00F;
+    color:#FFF;
+    /* margin-left:50px; */
+    width:400px;
+    margin: auto
+}
+
+.three
+{
+    background-color:#00F;
+    color:#FFF;
+    /* margin-left:50px; */
+    width:400px;
+
+    margin:-5px auto;
+}

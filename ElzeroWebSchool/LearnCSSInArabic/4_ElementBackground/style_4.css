@@ -1,0 +1,57 @@
+.div1
+{
+    height:2500px;
+    width:500px;
+    background-color:red;
+    background-image:url('../Image/quickie-remove-background-source.jpg');
+    background-repeat:no-repeat;
+    /* background-repeat:repeat;
+    background-repeat:repeat-x;
+    background-repeat:repeat-y; */
+    border:1px solid #000;
+    background-attachment:scroll;
+    background-position:top right;
+    /* background-position:center right;
+    background-position:bottom right;
+    background-position:top left;
+    background-position:center left;
+    background-position:bottom left;
+    background-position:top center;
+    background-position:center center;
+    background-position:bottom center; */
+
+}
+
+.div2
+{
+    height:2500px;
+    width:500px;
+    background-color:#FF0000;
+    background-image:url('../Image/quickie-remove-background-source.jpg');
+    background-repeat:no-repeat;
+    /* background-repeat:repeat;
+    background-repeat:repeat-x;
+    background-repeat:repeat-y; */
+    border:1px solid #000;
+    background-attachment:scroll;
+    background-position:50% 50%;
+}
+
+.div3
+{
+    height:2500px;
+    width:500px;
+    background-color:rgb(255, 0, 0);
+    background-image:url('../Image/quickie-remove-background-source.jpg');
+    background-repeat:no-repeat;
+    /* background-repeat:repeat;
+    background-repeat:repeat-x;
+    background-repeat:repeat-y; */
+    border:1px solid #000;
+    background-attachment:fixed;
+}
+
+.div4
+{
+    background:url('../Image/quickie-remove-background-source.jpg') no-repeat scroll 50% 50% #FF0000;
+}

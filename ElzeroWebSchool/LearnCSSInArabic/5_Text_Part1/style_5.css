@@ -1,0 +1,31 @@
+body
+{
+    direction:rtl;
+}
+div
+{
+    /* Div Properties */
+    width:300px;
+    color:#F00;
+    margin:10px 0;
+    padding:10px;
+
+    /* Text Properties */
+    background:#DDD;
+    direction:ltr; /* direction:ltr // by default */
+    letter-spacing:5px;
+    line-height:30px;
+    text-align:center;
+}
+
+div.div2
+{
+    /* Div Properties */
+    color:#FF0000;
+
+    /* Text Properties */
+    background:#DDD;
+    direction:rtl; /* direction:ltr // by default */
+    letter-spacing:normal;
+    line-height:400%;
+}

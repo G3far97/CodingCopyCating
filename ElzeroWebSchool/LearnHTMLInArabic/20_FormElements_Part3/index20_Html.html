@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Welcome To My Website">
+    <title>Form Part 3 ( TextArea, FieldSet, Legend, Select, Option )</title>
+    <style>
+        fieldset {background:#DDD;padding:10px;border:1px solid #CCC;margin-bottom:20px}
+        legend {background:#FFF;border:1px solid #CCC;padding:5px}
+    </style>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function sayHello() {
+            alert("Hello HTML")
+        }
+    </script>
+</head>
+
+<body>
+    <form name="register">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label>Username</label>
+            <input type="text" name="username" value="" placeholder="Type Your Name" maxlength="10">
+            <br>
+            <label>Password</label>
+            <input type="password">
+            <input type="checkbox">
+            <label>Remember Me</label>
+            <br>
+            <label>Your Message</label>
+            <br>
+            <textarea cols="60" rows="6" readonly>This Note You Can't Edit</textarea>
+            <br>
+            <label>Upload Your CV</label>
+            <input type="file">
+        </fieldset>
+        <fieldset>
+            <legend>Your Favourite</legend>
+            <label>Choose Your Browser</label>
+            <br>
+            <input type="radio" name="browser" value="Chrome"> Google Chrome <br>
+            <input type="radio" name="browser" value="FireFox"> Mozilla FireFox <br>
+            <input type="radio" name="browser" value="Opera"> Opera <br>
+            <br>
+            <label>Choose Your Mobile</label>
+            <br>
+            <input type="radio" name="mobile" value="iPhone"> iPhone <br>
+            <input type="radio" name="mobile" value="Samsung"> Samsung<br>
+            <input type="radio" name="mobile" value="Nokia"> Nokia <br>
+        </fieldset>
+        <fieldset>
+            <legend>Send Options</legend>
+            <select name="time">
+                <optgroup label="Near Time">
+                    <option value="1">Now</option>
+                    <option value="2" selected>Tomorrow</option>
+                    <option value="4" disabled>After A Week</option>
+                </optgroup>
+                <optgroup label="Far Time">
+                    <option value="5" >Year</option>
+                    <option value="6" disabled>10 Years</option>
+                    <option value="7" >20 Years</option>
+                </optgroup>
+            </select>
+            <input type="hidden"value="testing">
+            <input type="button" name="Say Hello" value="Say Hello" onclick="sayHello()">
+            <input type="submit" value="Sign Up">
+            <input type="reset" value="Restore Default">
+        </fieldset>
+        <br>
+        <input type="image" src="../Image/quickie-remove-background-source.jpg" alt="quickie-remove-background-source">
+    </form>
+</body>
+
+</html>

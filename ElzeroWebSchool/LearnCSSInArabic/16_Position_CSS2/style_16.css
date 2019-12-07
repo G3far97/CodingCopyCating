@@ -1,0 +1,54 @@
+body
+{
+    height:3000px;
+    background:#DDD;
+
+}
+
+.fixed
+{
+    background:#080;
+    color:#FFF;
+    padding:10px;
+    position:fixed; /* 'static' By Default */
+    top:100px;
+    right:40%;
+}
+
+.relative
+{
+    background:#080;
+    color:#FFF;
+    padding:10px;
+    position:relative; /* 'static' By Default */
+    top:150px;
+    left:40%;
+    direction: rtl;
+}
+
+.parent
+{
+    width:940px;
+    background:#FFF;
+    padding:10px;
+    height:600px;
+    position:relative;
+}
+
+.child
+{
+    width:600px;
+    height:400px;
+    padding:10px;
+    background:#EFEFEF;
+}
+
+.abs
+{
+    background:red;
+    color:white;
+    padding:10px;
+    position:absolute;
+    top:10px;
+    right:10px;
+}

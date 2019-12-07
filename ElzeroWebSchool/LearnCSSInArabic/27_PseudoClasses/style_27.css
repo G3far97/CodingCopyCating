@@ -1,0 +1,38 @@
+p:first-letter
+{
+    font-size:40px;
+    font-weight:bold;
+    color:#FFF;
+    background:#F00;
+    display:block;
+    margin:0px 10px 0px 0px;
+    padding:0px 10px;
+    border-radius:10px;
+}
+
+p:first-line
+{
+    color:#080;
+    font-weight:bold;
+}
+
+div:first-child
+{
+    background:#F00;
+    color:#080;
+    font-weight: bolder;
+}
+
+div.before:before
+{
+    content:"I am Content From Css";
+    color:#F00;
+    font-weight:bold;
+}
+
+div.before:after
+{
+    content:"I am Content From Css";
+    color:#00F;
+    font-weight:bold;
+}

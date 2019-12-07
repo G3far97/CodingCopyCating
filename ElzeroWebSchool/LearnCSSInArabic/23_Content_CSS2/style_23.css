@@ -1,0 +1,18 @@
+div:after
+{
+    content:" Hello I am Here From Css"; /* 'none' By Default */
+    color:#00F;
+    font-weight:bold;
+}
+
+div
+{
+    color:#F00;
+}
+
+div:before
+{
+    content:" Hello I am Here From Css"; /* 'none' By Default */
+    color:#00F;
+    font-weight:bold;
+}

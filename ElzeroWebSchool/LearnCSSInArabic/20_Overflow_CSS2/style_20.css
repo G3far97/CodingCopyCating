@@ -1,0 +1,8 @@
+div
+{
+    width:120px;
+    height:100px;
+    background:#DDD;
+    padding:10px;
+    overflow:auto; /* 'visible' By Default */
+}

@@ -1,0 +1,9 @@
+span
+{
+    cursor:cell; /* 'auto' By Default Detarmins The Suitable Cursor For Each Object Type*/
+}
+
+a
+{
+    cursor:no-drop;
+}

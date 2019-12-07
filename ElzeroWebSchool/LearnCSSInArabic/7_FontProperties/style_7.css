@@ -1,0 +1,74 @@
+p.one
+{
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    font-style:italic; /* 'normal' by default */
+    
+    /* Default font-size values */
+    font-size:medium; /* or '100%' or '16px' */
+    
+    /* Defaut font-weight values */
+    font-weight:normal;
+    /* font-weight:400; */
+}
+
+p.two
+{
+    font-family:Impact, Charcoal, sans-serif;
+    font-style:oblique;
+    font-size:32px;
+
+    /* Standard Bold font-weight values*/
+    font-weight:700;
+    /* font-weight:bold; */
+}
+
+p.three
+{
+    font-family:"Lucida Console", Monaco, monospace;
+    font-size:200%;
+
+    /* Light font-weight values */
+    font-weight: 100; /* from 100 to 399 */
+}
+
+p.four
+{
+    font-size:2em;
+}
+
+p.five
+{
+    /* Font named sizes */
+
+    font-size:xx-small;
+    /* font-size:x-small;
+    font-size:small;
+    font-size:medium;
+    font-size:large;
+    font-size:x-large;
+    font-size:xx-large; */
+
+    /* And this means relative size to the box that we are in 'The Parent' */
+
+    /* font-size:smaller;
+    font-size:larger; */
+
+    /* And this means relative weight to the box that we are in 'The Parent' */
+    font-weight:bolder;
+    /* font-weight:lighter; */
+}
+
+p.six
+{
+    width:400px;
+    /* The Shortcut Method to Declare The Font */
+    /* font: font-style font-weight font-size/line-height font-family */
+    font: italic bold 30px/40px "Comic Sans MS", cursive, sans-serif;
+
+    /* This is Instead of */
+    /* font-style:italic;
+    font-weight:bold;
+    font-size:30px;
+    line-height:40px;
+    font-family:"Comic Sans MS", cursive, sans-serif; */
+}

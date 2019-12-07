@@ -1,0 +1,15 @@
+ul
+{
+    /* list-style-type:square; */ /* 'disc' By Default */
+    /* list-style-position:inside; */ /* 'outside' By Default */
+    /* list-style-image:url(../Image/quickie-remove-background-source.jpg); */ /* 'none' by Default */
+
+    /* list-style: type position image */
+    /* list-style:disc outside none; */ /* Default values */
+    list-style: square inside url(../Image/quickie-remove-background-source.jpg);
+}
+
+ul li
+{
+    border:1px solid #DDD;
+}

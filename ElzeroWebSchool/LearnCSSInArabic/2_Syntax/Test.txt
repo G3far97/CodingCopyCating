@@ -1,0 +1,13 @@
+Selector
+{
+    Property: Value; //Declaration
+    Property: Value
+}
+
+P
+
+table
+
+div
+
+h1, h2, ... , h6

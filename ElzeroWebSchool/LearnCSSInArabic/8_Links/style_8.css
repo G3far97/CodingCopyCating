@@ -1,0 +1,19 @@
+a
+{
+    color:#00F;
+    text-decoration:none;
+}
+
+a:hover
+{
+    color:#F00;
+    font-weight:bold;
+    text-decoration:line-through;
+}
+
+a:active
+{
+    color:#080;
+    text-decoration:none;
+    font-weight:normal;
+}

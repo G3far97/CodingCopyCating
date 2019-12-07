@@ -1,0 +1,42 @@
+.none
+{
+    width:300px;
+    background:#00F;
+    color:#FFF;
+    padding:10px;
+    margin:10px;
+    float:none; /* Default Value */
+
+}
+
+.left
+{
+    width:300px;
+    background:#00F;
+    color:#FFF;
+    padding:10px;
+    margin:10px;
+    float:left;
+    
+}
+
+.right
+{
+    width:300px;
+    background:#00F;
+    color:#FFF;
+    padding:10px;
+    margin:10px;
+    float:right;
+    
+}
+
+.left span
+{
+    float:right;
+}
+
+.clear
+{
+    clear:both; /* To Clear Any Float Customization in the 'left', 'right' or 'both' directions */
+}

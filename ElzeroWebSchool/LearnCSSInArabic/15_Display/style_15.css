@@ -1,0 +1,20 @@
+span, img, a
+{
+    display:block; /* 'inline' By Default */
+    
+}
+
+h1, p
+{
+    display:inline;
+}
+
+div
+{
+    display:inline-block; /* Many divs Will Be 'inline' BUT It Still Has The Ability To Contain 'block' Elements */
+}
+
+div.none
+{
+    display:none; /* Hides The Element Entirely */
+}
