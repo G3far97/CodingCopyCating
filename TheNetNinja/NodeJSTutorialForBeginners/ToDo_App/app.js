@@ -1,9 +1,13 @@
 var express = require('express');
+var todoController = require('./controllers/todoController');
 
 var app = express();
 
 //Set up template engine
 app.set('view engine', 'ejs');
+
+//fire controllers
+todoController(app);
 
 //static files
 app.use(express.static('./public'));
