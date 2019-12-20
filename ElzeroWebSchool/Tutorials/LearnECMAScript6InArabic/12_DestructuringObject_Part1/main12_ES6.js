@@ -69,6 +69,6 @@ const user4 = {
     
 const { name4, gender4, age4, city4 = 'Default', theme4 = 'Default' } = user4;
 
-console.log(`My Name is ${name4}, I'm a ${gender4}, I have ${age4} years, I live in ${city4} and My favorite color theme is ${theme4}.`); // My Name is Ali, I'm a Male, I have 21 years.
+console.log(`My Name is ${name4}, I'm a ${gender4}, I have ${age4} years, I live in ${city4} and My favorite color theme is ${theme4}.`); // My Name is Ali, I'm a Male, I have 21 years, I live in cairo and My favorite color theme is Default.
 
 /////////////////////////
