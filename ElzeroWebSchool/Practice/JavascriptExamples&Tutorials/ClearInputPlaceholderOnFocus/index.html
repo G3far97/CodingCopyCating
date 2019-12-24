@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript Tuts => Clear Input Placeholder On Focus</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <h1>Clear Input Placeholder On Focus</h1>
+        <br>
+        <p>Doing it in main.js</p>
+        <input
+            id ="ourinput"
+            type="text"
+            placeholder="Type Your Name"
+        >
+        <br><br><br>
+        <p>Doing it inline [here in HTML]</p>
+        <input
+            type="text"
+            placeholder="Type Your Name"
+            onfocus="if (this.placeholder === 'Type Your Name') this.placeholder = '';"
+            onblur="if (this.placeholder === '') this.placeholder = 'Type Your Name';"
+        >
+    </form>
+    <script src="main.js"></script>
+</body>
+</html>
