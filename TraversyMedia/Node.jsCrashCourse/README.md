@@ -14,7 +14,8 @@ npm install
 
 # Serve on localhost:5000
 npm start
-
-# Heroku App
-https://g3far97-servertest101.herokuapp.com/
 ```
+
+## Heroku App
+
+> https://g3far97-servertest101.herokuapp.com/
