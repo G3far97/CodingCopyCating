@@ -1,7 +1,7 @@
-const eventEmitter = require('events');
+const EventEmitter = require('events');
 
 // Create class
-class MyEmitter extends eventEmitter {}
+class MyEmitter extends EventEmitter {}
 
 // Init object
 const myEmitter = new MyEmitter();
