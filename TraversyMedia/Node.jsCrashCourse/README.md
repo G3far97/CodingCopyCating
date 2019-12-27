@@ -4,7 +4,7 @@
 > https://www.youtube.com/user/TechGuyWeb
 
 > These files go with the Node crash course on YouTube:
-> https://www.youtube.com/watch?v=fBNz5xF-Kx4&list=PLillGF-RfqbYeckUaD1z6nviTp31GLTH8&index=7
+> https://www.youtube.com/watch?v=fBNz5xF-Kx4
 
 ## Quick Start
 
