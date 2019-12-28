@@ -1,15 +1,19 @@
 {
   "name": "Express.jsCrashCourse",
   "version": "1.0.0",
-  "description": "",
+  "description": "Express crash course",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index",
+    "dev": "nodemon index"
   },
-  "keywords": [],
-  "author": "",
+  "author": "G3far97",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "uuid": "^3.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
   }
 }
